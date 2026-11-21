@@ -1,0 +1,26 @@
+LP SERVICE MOBILE PARA LUIS — OFFLINE
+
+CORREO CONFIGURADO: pinaud.luis@gmail.com
+
+Este paquete es la aplicación web instalable (PWA) para iPhone, derivada de Alpha 19.
+No incluye datos de otros usuarios, contraseñas ni sincronización con Windows.
+El correo es la identidad comercial/local, NO una cuenta autenticada en Gmail.
+
+INSTALACION SENCILLA:
+1. Publica EL CONTENIDO de esta carpeta en un sitio HTTPS para archivos estáticos,
+   por ejemplo GitHub Pages. No publiques bases de datos ni respaldos JSON.
+2. Abre el enlace HTTPS con Safari del iPhone de Luis.
+3. Toca Compartir > Agregar a pantalla de inicio > Agregar.
+4. Abre LP Service desde el nuevo icono, con internet la primera vez.
+5. Comprueba modo avión: abre aplicación, crea un CLIENTE DE PRUEBA, cierra y vuelve a abrir.
+6. En Más > Respaldos, descarga un JSON y guárdalo en Archivos o iCloud Drive.
+
+IMPORTANTE:
+- No basta abrir un archivo HTML desde Archivos: el modo offline PWA requiere HTTPS.
+- Las credenciales de Windows no se transfieren aquí. No hay login seguro de cuentas
+  en esta versión independiente. Si el móvil tiene bloqueo, úsalo siempre.
+- Guardar en Gmail NO es automático. Los datos se mantienen en IndexedDB del iPhone.
+- Si se borra la app, la web o sus datos, se pueden perder los registros. Respaldar.
+- No se sincroniza con Windows y los cambios no se pasan automáticamente.
+- Los módulos e informes se basan en Alpha 19, no en Desktop 2.2.
+- Antes de usar con clientes reales, verificar fotos, informes y respaldo offline.
